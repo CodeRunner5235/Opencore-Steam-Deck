@@ -12,7 +12,7 @@ Some things to know:
 
 2. THIS CAN EASILY WIPE YOUR STEAMOS INSTALL IF YOU ARE NOT CAREFUL. Part of the macOS install is FORMATING a storage device OF YOUR CHOOSING. IF YOU CHOOSE THE INTERNAL STORAGE OF THE STEAM DECK, IT WILL BE WIPED.
 
-3. With #2 being said, you can, infact, dual boot macOS and steamOS or windows on the same drive with some elbow grease, Ill go over that later
+3. With #2 being said, you can, infact, dual boot macOS and steamOS or windows on the same drive with some elbow grease.
 
 4. I did not make any of the software used. I simply helped get macOS booting with some other devs and people interested. It was a team effort.
 
