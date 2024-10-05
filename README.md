@@ -1,8 +1,8 @@
-# Opencore-Steam-Deck
+# OpenCore-Steam-Deck
 ![image](https://github.com/user-attachments/assets/7d3877d3-b9c4-4c05-a999-4d8caf38b596)
 
 
-An opencore EFI configuration for the Steam Deck
+An OpenCore EFI configuration for the Steam Deck
 
 This is a guide targeted at getting users to run macOS bare metal on their Steam Decks.
 
@@ -25,7 +25,7 @@ Some things to know:
 
 Firstly, you need to understand how to run macOS on any other PC. Go to the [Dortania OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide/) and familiarize yourself with it. This is what we will be using.
 
-For the most part, you will follow the steps in the opencore guide, so make sure that you read and understand it.
+For the most part, you will follow the steps in the OpenCore guide, so make sure that you read and understand it.
 
 As you are following the guide and get to the [Gathering Files](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) portion, you will want to have these files for the Steam Deck:
 
@@ -47,9 +47,9 @@ In the end, you should have two files in the ACPI  folder:
 You only need two firmware drivers:
 
 1. [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
-2. OpenRuntime.efi (included in the opencore drivers folder already)
+2. OpenRuntime.efi (included in the OpenCore drivers folder already)
 
-Everything other than these two .efi files be trashed. In fact, I recommend that you trash all the extras (there are alot) so the boot menu for opencore isnt a confusing mess.
+Everything other than these two .efi files be trashed. In fact, I recommend that you trash all the extras (there are alot) so the boot menu for OpenCore isnt a confusing mess.
 
 
 **Tools and Resources**
@@ -74,7 +74,7 @@ Make sure you have these Kexts in your kexts folder:
 
 **Config.plist**
 
-After nabbing the sample.plist from the opencorepkg -> docs folder, moving it to your OC folder and renaming it config.plist, follow the steps in that [Ryzen and Threadripper portion of the guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html) with just a few variations:
+After nabbing the sample.plist from the OpenCorepkg -> docs folder, moving it to your OC folder and renaming it config.plist, follow the steps in that [Ryzen and Threadripper portion of the guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html) with just a few variations:
 
 1. You can leave Booter -> Quirks -> ResizeAppleGpuBars as -1 for now.
 
@@ -91,6 +91,9 @@ After nabbing the sample.plist from the opencorepkg -> docs folder, moving it to
 7. Under UEFI -> Output, set DirectGopRendering to True and set the Resolution to 1280x720
    *Note: If you skip this last part, your screen output will be garbled*
 
+
+
+That should do it! Just these changes the the standard OpenCore Ryzen install guide should get you up and running. Have fun!
 
 
 **Picture Examples**
