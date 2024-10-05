@@ -1,4 +1,7 @@
 # Opencore-Steam-Deck
+![image](https://github.com/user-attachments/assets/7d3877d3-b9c4-4c05-a999-4d8caf38b596)
+
+
 An opencore EFI configuration for the Steam Deck
 
 This is a guide targeted at getting users to run macOS bare metal on their Steam Decks.
@@ -26,6 +29,7 @@ For the most part, you will follow the steps in the opencore guide, so make sure
 
 As you are following the guide and get to the [Gathering Files](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) portion, you will want to have these files for the Steam Deck:
 
+
 **APCI**
 
 For this, you are going to want to download a tool called [SSDTTime](https://github.com/corpnewt/SSDTTime). Running this tool, you are first going to choose option **P** to dump you DSDT. Then you are going to select option **3** to make a SSDT-EC.aml. It should be in the resaults folder. Copy this to your EFI -> APCI folder, as per the OpenCore guide instructions.
@@ -36,6 +40,7 @@ In the end, you should have two files in the ACPI  folder:
 
 1. SSDT-CPUR.aml
 2. SSDT-EC.aml
+   
 
 **Firmware Drivers**
 
@@ -46,9 +51,11 @@ You only need two firmware drivers:
 
 Everything other than these two .efi files be trashed. In fact, I recommend that you trash all the extras (there are alot) so the boot menu for opencore isnt a condusing mess.
 
+
 **Tools and Resources**
 
 Just drag the tools and the resources folders to the trash. Yes im serious, we dont need them right now, just get rid of them.
+
 
 **Kexts**
 
@@ -63,6 +70,7 @@ Make sure you have these Kexts in your kexts foldler:
 5. For USBMap.kext, you can make your own with the [tool](https://github.com/USBToolBox/tool) with REQUIRES Windows and DOES NOT support linux, or if you dont have Windows, you can use [this](https://github.com/CodeRunner5235/Opencore-Steam-Deck/blob/main/UTBMap.zip) map which *should* work, but dont be supprised of it stops working
 
 6. [AppleMCEReporterDisabler.kext](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip) is only needed for macOS versions newer than *but not including* Big Sur.
+   
 
 **Config.plist**
 
@@ -72,7 +80,7 @@ After nabbing the sample.plist from the opencorepkg -> docs folder, moving it to
 
 2. For your AMD patches under the Kernel, the Steam Deck uses **4 cores** and 8 threads, so you will want to use 4 in your AMD patches.
 
-3. Under Kernel -> Quirks, we have a USB map so make sure to**disable** the XhciPortLimit
+3. Under Kernel -> Quirks, we have a USB map so make sure to **disable** the XhciPortLimit
 
 4. Under Misc -> Security, set SecureBootModel to Disabled to make life easier.
 
