@@ -8,7 +8,7 @@ This is a guide targeted at getting users to run macOS bare metal on their Steam
 
 Some things to know:
 
-1. Not everything works. Many devices do not have support. This is more of a "Look what I can do!" thing as of right now.
+1. Barely anything works. Many devices do not have support. This is more of a "Look what I can do!" thing as of right now.
 
 2. THIS CAN EASILY WIPE YOUR STEAMOS INSTALL IF YOU ARE NOT CAREFUL. Part of the macOS install is FORMATTING a storage device OF YOUR CHOOSING. IF YOU CHOOSE THE INTERNAL STORAGE OF THE STEAM DECK, IT WILL BE WIPED.
 
