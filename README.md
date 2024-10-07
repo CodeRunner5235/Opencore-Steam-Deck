@@ -1,6 +1,8 @@
 # OpenCore-Steam-Deck
+
 ![image](https://github.com/user-attachments/assets/7d3877d3-b9c4-4c05-a999-4d8caf38b596)
 
+<hr>
 
 An OpenCore EFI configuration for the Steam Deck
 
@@ -16,10 +18,11 @@ Some things to know:
 
 4. I did not make any of the software used. I simply helped get macOS booting with some other devs and people interested. It was a team effort.
 
-5. Stuff will be fixed or not depending on if someone takes interest and adds support. PLEASE dont ask when stuff with be supported, I dont know.
+5. Stuff will be fixed or not depending on if someone takes interest and adds support. PLEASE dont ask when stuff with be supported, I dont know. As support is added, and added in a way the devs of the software are comfortiable with, I will update the guide.
 
 6. PLEASE DO NOT FLOOD THE HACKINTOSH SERVERS FOR SUPPORT REQUESTS. Whether it be discord or others. These are niche devices that barely run macOS. For the love of all thats good and holy, dont pester the volunteers that help others with this meme of a computer. If you must ask, come here to and ask IN THE DISCUSSIONS.
 
+<hr>
 
 **Getting Started**
 
@@ -95,6 +98,7 @@ After nabbing the sample.plist from the OpenCorepkg -> docs folder, moving it to
 
 That should do it! Just these changes the the standard OpenCore Ryzen install guide should get you up and running. Have fun!
 
+<hr>
 
 **Picture Examples**
 
