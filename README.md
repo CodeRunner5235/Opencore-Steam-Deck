@@ -22,6 +22,8 @@ Some things to know:
 
 6. PLEASE DO NOT FLOOD THE HACKINTOSH SERVERS FOR SUPPORT REQUESTS. Whether it be discord or others. These are niche devices that barely run macOS. For the love of all thats good and holy, dont pester the volunteers that help others with this meme of a computer. If you must ask, come here to and ask IN THE DISCUSSIONS.
 
+7. Booting from the SD card slot will not work in most cases (booting an online recovery image *should* work as it is run from memory, not the SD card itself). If you are using an offline image or a full macOS install, you will need to boot from USB or the internal NVME.
+
 <hr>
 
 **Getting Started**
