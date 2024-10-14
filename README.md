@@ -37,7 +37,7 @@ As you are following the guide and get to the [Gathering Files](https://dortania
 
 **APCI**
 
-For this, you are going to want to download a tool called [SSDTTime](https://github.com/corpnewt/SSDTTime). Running this tool, you are first going to choose option **P** to dump you DSDT. Then you are going to select option **3** to make a SSDT-EC.aml. It should be in the results folder. Copy this to your EFI -> APCI folder, as per the OpenCore guide instructions.
+For this, you are going to want to download a tool called [SSDTTime](https://github.com/corpnewt/SSDTTime). Running this tool on the steam deck, you are first going to choose option **P** to dump you DSDT. If you are running this tool from another machine, you will need to get the DSDT from your steam deck select it in the tool. Then you are going to select option **3** to make a SSDT-EC.aml. It should be in the results folder. Copy this to your EFI -> APCI folder, as per the OpenCore guide instructions.
 
 You will also need the [SSDT-CPUR](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-CPUR.aml) in the ACPI folder.
 
