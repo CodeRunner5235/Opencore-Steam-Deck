@@ -59,7 +59,7 @@ Everything other than these two .efi files be trashed. In fact, I recommend that
 
 **Tools and Resources**
 
-Just drag the tools and the resources folders to the trash. Yes im serious, we dont need them right now, just get rid of them.
+Just drag the tools and the resources folders to the trash. Yes I'm serious. We dont need them right now and they can make things much more confusing in the boot menu. Just get rid of them.
 
 
 **Kexts**
